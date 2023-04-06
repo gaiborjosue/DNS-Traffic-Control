@@ -23,3 +23,7 @@ Finally, I plotted the feature importances to understand which features were mos
 
 ## Conclusion
 The DNS Traffic Control Project demonstrates how machine learning can be used to classify DNS traffic as either benign or malicious. By using stateless datasets and a Random Forest Classifier algorithm, I was able to build a model that accurately detected and prevented malicious DNS traffic.
+
+## License
+
+[MIT License](LICENSE)
