@@ -1,4 +1,5 @@
-[create issue](https://github.com/gaiborjosue/DNS-Traffic-Control/issues/new)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 
 # DNS Traffic Control Project
 Overview
