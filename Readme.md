@@ -1,5 +1,4 @@
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/gaiborjosue/DNS-Traffic-Control/blob/master/Model/RandomForest.ipynb)
+Model: [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/gaiborjosue/DNS-Traffic-Control/blob/master/Model/RandomForest.ipynb)
 
 # DNS Traffic Control Project
 Overview
@@ -28,5 +27,4 @@ Finally, I plotted the feature importances to understand which features were mos
 The DNS Traffic Control Project demonstrates how machine learning can be used to classify DNS traffic as either benign or malicious. By using stateless datasets and a Random Forest Classifier algorithm, I was able to build a model that accurately detected and prevented malicious DNS traffic.
 
 ## License
-
-[MIT License](LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
