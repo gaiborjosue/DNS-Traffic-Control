@@ -1,3 +1,5 @@
+[create issue](https://github.com/gaiborjosue/DNS-Traffic-Control/issues/new)
+
 # DNS Traffic Control Project
 Overview
 The DNS Traffic Control Project is a machine learning project that aims to classify DNS traffic as either benign or malicious using stateless datasets. The purpose of this project is to build a model that can accurately detect and prevent malicious DNS traffic.
