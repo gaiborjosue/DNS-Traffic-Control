@@ -1,5 +1,5 @@
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)(https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
-
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/gaiborjosue/DNS-Traffic-Control/blob/master/Model/RandomForest.ipynb)
 
 # DNS Traffic Control Project
 Overview
