@@ -7,6 +7,9 @@ The DNS Traffic Control Project is a machine learning project that aims to class
 ## Dataset
 For this project, I used two stateless datasets containing features related to DNS traffic. The first dataset contains only benign traffic, while the second dataset contains both benign and malicious traffic. I used these datasets because they are readily available and provide a good starting point for building a DNS traffic classification model.
 
+### For the dataset source please refer to:
+  Samaneh Mahdavifar, Amgad Hanafy Salem, Princy Victor, Miguel Garzon, Amir H. Razavi, Natasha Hellberg, Arash Habibi Lashkari, “Lightweight Hybrid Detection of Data   Exfiltration using DNS based on Machine Learning”, The 11th IEEE International Conference on Communication and Network Security (ICCNS), Dec. 3-5, 2021, Beijing       Jiaotong University, Weihai, China.
+
 ## Class Definition
 To train the machine learning model, I defined the DNS anomalous detection class. This class has two possible values: 0 (benign) and 1 (malicious). I chose this class definition because it is a simple and intuitive way to classify DNS traffic.
 
