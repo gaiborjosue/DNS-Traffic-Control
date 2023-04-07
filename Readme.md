@@ -16,7 +16,7 @@ To train the machine learning model, I defined the DNS anomalous detection class
 ## Methodology
 To build the DNS traffic classification model, I used a Random Forest Classifier algorithm from the scikit-learn library. The Random Forest Classifier is a popular algorithm for classification tasks, and it has been shown to be effective in detecting malicious traffic.
 
-I first merged the two datasets and shuffled the data to avoid bias. I then dropped the columns "longest_word" and "sld" from the dataset, as these columns were not relevant to the classification task. I also removed any rows with NaN values.
+I first merged the two datasets and shuffled the data to avoid bias. I also removed any rows with NaN values.
 
 I then normalized the numerical data using a MinMaxScaler object from the scikit-learn library. I split the data into training and testing sets using a 80-20 split, respectively.
 
