@@ -1,7 +1,7 @@
 Model: [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/gaiborjosue/DNS-Traffic-Control/blob/master/Model/RandomForest.ipynb)
 
 # DNS Traffic Control Project
-Overview
+### Overview
 The DNS Traffic Control Project is a machine learning project that aims to classify DNS traffic as either benign or malicious using stateless datasets. The purpose of this project is to build a model that can accurately detect and prevent malicious DNS traffic.
 
 ## Dataset
