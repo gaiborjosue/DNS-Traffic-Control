@@ -2,10 +2,10 @@ Model: [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?s
 
 # DNS Traffic Control Project
 ### Overview
-The DNS Traffic Control Project is a machine learning project that aims to classify DNS traffic as either benign or malicious using stateless datasets. The purpose of this project is to build a model that can accurately detect and prevent malicious DNS traffic.
+The DNS Traffic Control Project is a machine learning project that aims to classify DNS traffic as either benign or malicious using stateless and stateful datasets. The purpose of this project is to build a model that can accurately detect and prevent malicious DNS traffic.
 
 ## Dataset
-For this project, I used two stateless datasets containing features related to DNS traffic. The first dataset contains only benign traffic, while the second dataset contains both benign and malicious traffic. I used these datasets because they are readily available and provide a good starting point for building a DNS traffic classification model.
+For this project, I used stateless and stateful datasets containing features related to DNS traffic suggested by the CIC-Bell-DNS-EXF-2021 Dataset. I used a merged combination of the datasets, both in light and heavy attacks. I used these datasets because they are readily available and provide a good starting point for building a DNS traffic classification model.
 
 ### For the dataset source please refer to:
   Samaneh Mahdavifar, Amgad Hanafy Salem, Princy Victor, Miguel Garzon, Amir H. Razavi, Natasha Hellberg, Arash Habibi Lashkari, “Lightweight Hybrid Detection of Data   Exfiltration using DNS based on Machine Learning”, The 11th IEEE International Conference on Communication and Network Security (ICCNS), Dec. 3-5, 2021, Beijing       Jiaotong University, Weihai, China.
