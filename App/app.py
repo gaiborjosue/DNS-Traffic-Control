@@ -14,7 +14,7 @@ with st.sidebar:
     st.image("https://builtin.com/sites/www.builtin.com/files/styles/og/public/2021-12/machine-learning-examples-applications.png")
     st.title("Auto Machine Learning Model Generator")
     choice = st.radio("Navigation", ["Home", "Data Upload", "Profiling", "ML", "Download"])
-    st.info("This is an application to help you with DNS Traffic Control with Machine Learning")
+    st.info("This is an application to help you with Machine Learning")
 
 if os.path.exists("source.csv"):
     df = pd.read_csv("source.csv", index_col=None)
