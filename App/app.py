@@ -7,7 +7,7 @@ import ydata_profiling as pp
 from streamlit_pandas_profiling import st_profile_report
 
 # Machine Learning
-from pycaret.classification import *
+from pycaret.classification import setup, compare_models, pull, save_model
 
 with st.sidebar:
     st.image("https://builtin.com/sites/www.builtin.com/files/styles/og/public/2021-12/machine-learning-examples-applications.png")
@@ -45,17 +45,17 @@ if choice == "ML":
     st.title("Machine Learning Generator")
     target = st.selectbox("Select your target", df.columns)
     if st.button("Train"):
-      pycaret.classification.setup(df, target=target)
-      setup_df = pycaret.classification.pull()
+      setup(df, target=target)
+      setup_df = pull()
       st.info("This is the ML Experiment")
       st.dataframe(setup_df)
-      best_model = pycaret.classification.compare_models()
-      compare_models_df = pycaret.classification.pull()
+      best_model = compare_models()
+      compare_models_df = pull()
       st.info("This is the best model")
       st.dataframe(compare_models_df)
       best_model
-      pycaret.classification.save_model(best_model, "best_model")
+      save_model(best_model, "best_model")
 
 if choice == "Download":
-    with open("best_model.pkl", "rb") as f:
-        st.download_button("Download the model", f, "trained_model.pkl")
+    with open("best_model.joblib", "rb") as f:
+        st.download_button("Download the model", f, "trained_model.joblib")
