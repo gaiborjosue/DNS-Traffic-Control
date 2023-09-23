@@ -56,6 +56,7 @@ if choice == "ML":
       save_model(best_model, "best_model")
       st.dataframe(compare_models_df)
 
-if choice == "Download":
+""" if choice == "Download":
     with open("best_model.pkl", "rb") as f:
         st.download_button("Download the model", f, "trained_model.pkl")
+ """
