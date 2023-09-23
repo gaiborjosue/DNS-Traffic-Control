@@ -15950,3 +15950,40 @@ ValueError: Input contains NaN.
 2023-04-25 19:27:26,000:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
   df = pd.read_csv("source.csv", index_col=None)
 
+2023-06-18 16:57:00,394:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-18 16:57:00,396:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-18 16:57:00,396:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-18 16:57:00,397:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-18 16:57:09,938:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-18 16:57:13,704:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:10,881:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:12,585:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:14,754:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:15,753:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:17,831:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:49,732:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:51,435:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
+2023-06-18 16:58:52,944:WARNING:C:\Users\gaibo\OneDrive\Escritorio\Python Projects\DNS Traffic Control\App\app.py:19: DtypeWarning: Columns (0,1,2,3,4,5,6,7,8,9,12,13,14) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("source.csv", index_col=None)
+
