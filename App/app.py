@@ -52,9 +52,8 @@ if choice == "ML":
       best_model = compare_models()
       compare_models_df = pull()
       st.info("This is the best model")
-      st.dataframe(compare_models_df)
-      best_model
       save_model(best_model, "best_model")
+      st.dataframe(compare_models_df)
 
 if choice == "Download":
     with open("best_model.joblib", "rb") as f:
