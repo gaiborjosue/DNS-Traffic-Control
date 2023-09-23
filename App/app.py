@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 import os
+import pandas_profiling
 
 #Import profile_report
 import ydata_profiling as pp
 from streamlit_pandas_profiling import st_profile_report
 
 # Machine Learning
-from pycaret.classification import setup, compare_models, pull, save_model
+from pycaret.regression import setup, compare_models, pull, save_model
 
 with st.sidebar:
     st.image("https://builtin.com/sites/www.builtin.com/files/styles/og/public/2021-12/machine-learning-examples-applications.png")
@@ -43,9 +44,9 @@ if choice == "Profiling":
 
 if choice == "ML":
     st.title("Machine Learning Generator")
-    target = st.selectbox("Select your target", df.columns)
+    target2 = st.selectbox("Select your target", df.columns)
     if st.button("Train"):
-      setup(df, target=target)
+      setup(df, target=target2)
       setup_df = pull()
       st.info("This is the ML Experiment")
       st.dataframe(setup_df)
