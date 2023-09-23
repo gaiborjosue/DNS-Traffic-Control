@@ -21,8 +21,8 @@ if os.path.exists("source.csv"):
 
 if choice == "Home":
   st.title("Welcome to AutoML Model Generator")
-  st.write("Hello! This is a Machine Learning Model Generator. You can input your dataset and generate a Machine Learning Model. Also, you can download the model and use it for your own purpose. The model you are downloading is a pickle file, that contains the highest accuracy model selected by the AutoML. You can also access profiling report of your dataset and explore it.")
-  st.write("Under the Data Upload tab you can upload your dataset. The dataset should be in .csv format. After uploading the dataset, you can access the profiling report of your dataset under the Profiling tab. You can also generate a Machine Learning Model under the ML tab and see all the models compared side by side with their respective scores. After generating the model, you can download it under the Download tab.")
+  st.write("Hello! This is a Machine Learning Model Generator. You can input your dataset and generate a Machine Learning Model. You can also access profiling report of your dataset and explore it.")
+  st.write("Under the Data Upload tab you can upload your dataset. The dataset should be in .csv format. After uploading the dataset, you can access the profiling report of your dataset under the Profiling tab. You can also generate a Machine Learning Model under the ML tab and see all the models compared side by side with their respective scores.")
   st.divider()
 
 if choice == "Data Upload":
@@ -55,8 +55,3 @@ if choice == "ML":
       st.info("This is the best model")
       save_model(best_model, "best_model")
       st.dataframe(compare_models_df)
-
-""" if choice == "Download":
-    with open("best_model.pkl", "rb") as f:
-        st.download_button("Download the model", f, "trained_model.pkl")
- """
